@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: maroon;
+}
+main{
+    background-color: #fff;
+}
+footer{
+    background-color: #000;
+}
