@@ -4,10 +4,39 @@
 }
 header{
     background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2px;
+    font-size: 35px;
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    right: 0%;
+    top: 45px;
+    padding: 0 1rem;
+}
+.menu ul li{
+    list-style: none;
+    position: relative;
+    padding: 8px 12px;
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
 }
 main{
     background-color: #fff;
+    margin-top: 5px;
 }
 footer{
-    background-color: #000;
+    background-color: aquamarine;
+    margin-top: 770px;
 }
