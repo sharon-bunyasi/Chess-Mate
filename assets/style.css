@@ -89,7 +89,6 @@ main{
     justify-content: center;
 }
 footer{
-    background-color: aquamarine;
     margin-top: 150px;
 }
 .socials{
@@ -97,5 +96,8 @@ footer{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+}
+.socials i{
     font-size: 130%;
+    color: #000;
 }
