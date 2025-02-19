@@ -90,5 +90,12 @@ main{
 }
 footer{
     background-color: aquamarine;
-    margin-top: 770px;
+    margin-top: 150px;
+}
+.socials{
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 130%;
 }
