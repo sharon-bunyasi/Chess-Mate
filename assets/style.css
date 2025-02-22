@@ -103,13 +103,25 @@ main{
 .gallery h2{
     text-transform: capitalize;
     text-align: center;
-    font-size: 100%;
+    font-size: 300%;
     padding: 25px;
+    font-family: "oswald", lato;
+    color: #3f2805;
+
 }
 .videos{
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
+    column-count: 3;
+    column-gap: 0;
+}
+.images img{
+    width: 100%;
+}
+.images{
+    column-count: 4;
+    column-gap: 0;
 }
 footer{
     margin-top: 130px;
