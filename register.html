@@ -19,50 +19,43 @@
             <ul>
                 <li><a href="index.html"> Home</a> </li>
                 <li><a href="gallery.html"> Gallery</a> </li>
-                <li><a href="register.html"> Register</a> </li>
+                <li><a href="register.html" class="active"> Register</a> </li>
                 <li><a href="contact.html"> Contact</a> </li>
             </ul>
         </nav>
         </div>
     </header>
-    <main class="about">
-        <h2> Welcome to Chess Mate</h2>
-        <p> Develop your skills, compete in tournaments and make friends!
-            we are a fun and educational chess community designed for young adults aged 7-18 years.<br>
-            our mission is to help young players develop critical thinking, strategy and confidence through the exciting game of chess.
-        </p>
-    </main>
-    <div class="hero">
-        <img class="hero_image" src="assets/gallery/pexels-cottonbro-9303635.jpg" alt="kids playing chess">
-    </div>
-    <section>
-        <h2 class="info">Our Programs</h2>
-        
-        <div class="program-container">
-            <div class="program">
-                <img src="assets/gallery/beginner program.jpg" alt="kids learning how to play chess">
-                <div class="text">
-                    <h3><a href="register.html">Beginner Program</a></h3>
-                    <p>Perfect for those just starting out. Learn how chess pieces move and basic rules.</p>
+    <section class="signup">
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h2><i class="fa-solid fa-chess"></i>Register here</h2>
+            <label for="first name">First Name</label>
+            <input type="text" name="first_name" id="first-name" class="input" placeholder="Enter your first name" required>
+            <br>
+            <label for="last name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="input" placeholder="Enter your last name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="input" placeholder="Enter your email" required>
+            <br>
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="number" id="phone_number" class="input" placeholder="Enter your phone number" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="beginner"> Beginner</label>
+                    <input type="radio" name="program_preference" id="beginner" value="beginner" required checked>
                 </div>
-            </div>
-    
-            <div class="program">
-                <img src="assets/gallery/intermediate program.jpg" alt="kids playing against each other">
-                <div class="text">
-                    <h3><a href="register.html">Intermediate Program</a></h3>
-                    <p>Take your chess skills to the next level by learning strategy and playing against others.</p>
+                <div>
+                    <label for="beginner"> Intermediate</label>
+                    <input type="radio" name="program_preference" id="intermediate" value="intermediate" required checked>
                 </div>
-            </div>
-    
-            <div class="program">
-                <img src="assets/gallery/advanced program.jpg" alt="kids participating in a tournament">
-                <div class="text">
-                    <h3><a href="register.html">Advanced Program</a></h3>
-                    <p>Prepare for tournaments and learn advanced techniques with experienced coaches.</p>
+                <div>
+                    <label for="beginner"> Advanced</label>
+                    <input type="radio" name="program_preference" id="advanced" value="advanced" required checked>
                 </div>
+                <button type="submit" class="join-button"> Register </button>
             </div>
-        </div>
+        </form>
     </section>
     
     <section>
