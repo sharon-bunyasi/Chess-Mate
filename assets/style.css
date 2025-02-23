@@ -52,7 +52,7 @@ header{
 
 main{
     background-color: #fff;
-    margin-top: 5px;
+   
 }
 .about{
     text-align: center;
@@ -154,22 +154,19 @@ footer p{
     text-align: center;
     color: #fff;
 }
-.signup {
-    height: 800px;
+.contact {
+
     background-color: #3f2805;
     clear: left;
 }
 
-.signup-form h2 {
+.contact-form h2 {
     color: rgb(243, 244, 245);
     margin-bottom: 20px;
 }
 
-.signup-form {
-    max-width: 350px;
-    position: absolute;
-    margin-top: 200px;
-    left: 10%;
+.contact-form {
+
     color: rgb(243, 244, 245);
 }
 
@@ -204,7 +201,7 @@ padding: 0 2rem;
 .place p{
 text-transform: capitalize;
 }
-@media screen {max-width: 768px; } 
+
 header{
     flex-direction: column;
     align-items: center;
@@ -275,3 +272,47 @@ footer{
 
     
 
+.main-contact{
+    display: flex;
+}
+
+
+.main-contact > *{
+    width: 50%;
+    padding: 2rem;
+}
+
+.contact-info{
+   
+    text-align: center;
+}
+
+.contact-info div ul {
+    list-style-type: none;
+}
+
+
+
+/* Extra small devices  (Phones)*/
+@media only screen and (max-width: 600px) {}
+
+
+
+/* Small small devices  (Large Phones)*/
+@media only screen and (max-width: 768px) {
+    
+    .main-contact{
+        flex-direction: column;
+     }
+     
+     
+     .main-contact > *{
+         width: 100%;
+        
+     }
+}
+
+/* Large devices (Tablets) */
+@media only screen and (max-width: 992px) {
+
+}
