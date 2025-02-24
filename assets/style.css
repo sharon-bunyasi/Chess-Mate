@@ -186,7 +186,12 @@ footer p{
 
     color: rgb(243, 244, 245);
 }
-
+.join-button{
+    color: #3f2805;
+}
+.join-button:hover{
+    color: #d4af37;
+}
 .input {
     color: black;
     width: 100%;
