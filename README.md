@@ -118,7 +118,7 @@ The website was tested on the following browsers:
 📌 Live Demo: [Chess Mate](https://sharon-bunyasi.github.io/Chess-Mate/)  
 
 ### **Resources & Acknowledgments**  
-- **Images:** Pexels & Unsplash  
+- **Images:** Pexels & istock 
 - **Icons:** Font Awesome  
 - **Fonts:** Google Fonts  
 - **Inspiration & Guidance:** thanks to  **code intitute-love running project, mentor-MR. Jubril, and my peers on slack** for their guidance and support.  
