@@ -27,16 +27,16 @@ Welcome to **Chess Mate** – a fun and educational chess community designed for
 ## 🎨 Screenshots  
 
 ### 📍 all screen sizes  
-![Display of website on all screen sizes](/all-screen-sizes..png)
+![Display of website on all screen sizes](/documentation/all-screen-sizes..png)
 
 ### 📍 Homepage  
-![Homepage Screenshot](/laptop.png)  
+![Homepage Screenshot](/documentation/laptop.png)  
 
 ### 📍 contact section  
-![Programs Screenshot](/tablet.png)  
+![Programs Screenshot](/documentation/tablet.png)  
 
 ### 📍 Gallery  
-![Gallery Screenshot](/gallery.png) 
+![Gallery Screenshot](/documentation/gallery.png) 
 
 
 ---
@@ -109,7 +109,7 @@ The website was tested on the following browsers:
   - Good contrast ratio  
   - Proper semantic HTML  
   - Alternative text for images 
-  ![lighthouse Devtool perfomance result](/lighthouse-devtools.png)
+  ![lighthouse Devtool perfomance result](/documentation/lighthouse-devtools.png)
 ---
 ## 🎖️ Acknowledgments  
 

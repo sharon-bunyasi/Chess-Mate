@@ -27,7 +27,7 @@ header{
     padding: 0.1rem;
     right: 0%;
     top: 0;
-    z-index: 2px;
+    z-index: 2;
 }
 .menu ul li{
     list-style: none;
@@ -324,4 +324,16 @@ footer{
         height: auto;
         object-fit: cover;
     }
+}
+
+
+.welcome-main{
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-main p{
+    text-align: center;
 }
