@@ -39,9 +39,12 @@ header{
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'lato',open sans ;
+    font-family: 'lato',"open sans" ;
 }
 .menu a:hover{
+    color: #d4af37;
+}
+.menu a:focus {
     color: #d4af37;
 }
 
@@ -58,7 +61,7 @@ main{
 }
 .about p{
     font-size: 20px;
-    font-family: "lato", open sans;
+    font-family: "lato", "open sans";
 }
 .hero{
     width: 100%;
@@ -285,7 +288,10 @@ footer{
 
 
 /* Extra large devices */
-@media only screen and (mix-width: 768px) {}
+@media only screen and (max-width: 768px) {
+.videos{ display: flex;
+    flex-wrap: wrap;
+}}
 
 /* Small small devices  (Large Phones)*/
 @media only screen and (max-width: 768px) {
