@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
     border: none;
 }
+/* styles for the header */
 header{
     background-color: maroon;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 .logo{
     text-transform: uppercase;
@@ -29,6 +33,12 @@ header{
     top: 0;
     z-index: 2;
 }
+/* shows the user which navigation screen they are active on*/
+.menu a.active {
+    border-bottom: 2px solid #d4af37;
+    color: #d4af37;
+}
+
 .menu ul li{
     list-style: none;
     position: relative;
@@ -44,13 +54,10 @@ header{
 .menu a:hover{
     color: #d4af37;
 }
-.menu a:focus {
-    color: #d4af37;
-}
-
+/* helps the main content not hide under the header*/
 main{
     background-color: #fff;
-   
+    padding-top: 100px;
 }
 .about{
     text-align: center;
@@ -133,25 +140,24 @@ main{
     text-transform: capitalize;
     text-align: center;
     font-size: 300%;
-    padding: 25px;
+    padding-top: 100px;
     font-family: "oswald", lato;
     color: #3f2805;
+     
+}
 
+.videos, .images { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.videos{
+
+.images img, .videos video{
     width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
-    column-count: 3;
-    column-gap: 0;
+    max-width: 300px;
+    height: auto;
 }
-.images img{
-    width: 100%;
-}
-.images{
-    column-count: 4;
-    column-gap: 0;
-}
+
 footer{
     margin-top: 130px;
     background-color: #3a3a3a;
@@ -287,13 +293,7 @@ footer{
 }
 
 
-/* Extra large devices */
-@media only screen and (max-width: 768px) {
-.videos{ display: flex;
-    flex-wrap: wrap;
-}}
-
-/* Small small devices  (Large Phones)*/
+ /*Small small devices  (Large Phones)*/
 @media only screen and (max-width: 768px) {
     header{
         flex-direction: column;
@@ -304,6 +304,10 @@ footer{
         padding: 0;
         top: 40px;
         right: 0;
+        text-align: center;
+    }
+    .menu li{
+        text-align: center;
     }
 
     .main-contact{
