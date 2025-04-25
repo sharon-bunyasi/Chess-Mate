@@ -81,11 +81,13 @@ Chess Mate is hosted using **GitHub Pages**.
 
 ### **HTML Validation**  
 - All HTML files were tested using the **W3C Markup Validator**.  
-- No critical errors were found.  
+- No critical errors were found.
+![HTML Validator Screenshot](/documentation/html%20checked%20.png)  
 
 ### **CSS Validation**  
 - CSS was tested using the **W3C CSS Validator**.  
-- The stylesheets passed validation with no major issues.  
+- The stylesheets passed validation with no issues.
+![CSS Validator Screenshot](/documentation/CSS%20checked.png)  
 
 ### **Responsiveness Testing**  
 - The site was manually tested on different screen sizes:  
