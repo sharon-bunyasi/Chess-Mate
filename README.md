@@ -1,17 +1,5 @@
 ## CHESS MATE
 
-## Table of Contents
-
-- [project overview](#-project-overview)
-- [project goals](#-project-goals)
-- [Features](#features)
-- [Live Demo](#live-demo)
-- [Technologies Used](#technologies-used)
-- [Deployment](#-deployment)
-- [Testing and validation](#-testing-and-validation)
-- [Acknowledgments](#️-acknowledgments)
-
------
   ### 🎯 Project overview
 
 Welcome to **Chess Mate** – a fun and educational chess community designed for young players aged 7-18! Whether you're just starting or looking to refine your strategy, our platform offers programs to help you **develop critical thinking, compete in tournaments, and make friends.**  
@@ -111,7 +99,7 @@ The website was tested on the following browsers:
   - Good contrast ratio  
   - Proper semantic HTML  
   - Alternative text for images 
-  ![lighthouse Devtool perfomance result](/documentation/lighthouse-devtools.png)
+  ![lighthouse Devtool perfomance result](/documentation/lighthouse.jpeg)
 ---
 ## 🎖️ Acknowledgments  
 
