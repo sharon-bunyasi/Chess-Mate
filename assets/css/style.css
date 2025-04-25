@@ -30,8 +30,8 @@ header{
 .menu{
     position: absolute;
     padding: 0.1rem;
-    right: 0%;
-    top: 0;
+    right: 5%;
+    bottom: 0%;
     z-index: 2;
 }
 /* shows the user which navigation screen they are active on*/
@@ -325,7 +325,7 @@ footer{
     .menu{
         width: 300px;
         padding: 0;
-        top: 40px;
+        bottom: 0%;
         right: 0;
         text-align: center;
     }
